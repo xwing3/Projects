@@ -39,7 +39,7 @@ body {
 
 iframe {
 	display: inline;
-	border: 1px solid #777;
+	border: none;
 	margin-top: 50px;
   overflow: auto;
 
