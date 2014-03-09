@@ -15,4 +15,9 @@ $("#back_home").click(function(){
 });	
 });
 
+$(document).ready(function() {
+$("#github").click(function(){
+	$("#frame1").attr("src","body/github.html");
+});	
+});
 
