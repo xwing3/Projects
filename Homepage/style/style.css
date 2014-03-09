@@ -47,3 +47,32 @@ iframe {
   margin-right: auto;
   margin-bottom: auto;
   }
+
+
+  .footer_social {
+  display: block;
+  border: none;
+  float:middle;
+  width: 1000px;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0; 
+  border-top: 1px solid #c4d7ed;
+  border-radius: 1px;
+  }
+a {
+  margin-top: 10px;
+  display: inline-block;
+}
+  .copyright {
+  display: block;
+  border: none;
+  float:middle;
+  position: relative;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -140px;  
+  }
