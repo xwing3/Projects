@@ -1,7 +1,12 @@
+body {
+	width: 1000px;
+	height: 800px;
+}
 p {
 	text-align: left;
 	font-family: verdana;
-	font-size: 14px bold;
+	font-size: 14px;
+	font-weight: bold;
 	color: #4183c4;
 }
 
