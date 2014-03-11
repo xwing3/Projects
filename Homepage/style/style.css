@@ -1,30 +1,27 @@
 body {
-	font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 13px;
-	text-align: center;
+	font-family: "Droid serif", sans-serif;
+  font-size: 13px;
 	padding: 20px 50px 150px;
 	background: #f6f5ed;
 }
 
 #list {
-  text-align: left;
   display: inline;
-  margin: 0;
-  padding: 15px 4px 17px 0;
   list-style: none;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+ 
 }
 
 .menu {
-  font: bold 12px verdana, sans-serif;
+  font: bold 13px "Droid serif", sans-serif;
   display: inline-block;
   margin-right: -4px;
   position: relative;
   padding: 15px 20px;
-  background: #fff;
+  background: #f6f5ed;
   cursor: default;
+  border: 1px dashed #4183c4;
+  border-radius: 5px;
+  color: #515151;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
@@ -39,7 +36,8 @@ body {
 
 iframe {
 	display: block;
-	border: none;
+	border: 1px dashed #4183c4;
+  font-family: "Droid serif", sans-serif;
   float:middle;
   position: relative;
   margin-top: 50px;
@@ -51,9 +49,9 @@ iframe {
 
   .footer_social {
   display: block;
+  text-align: center;
   border: none;
-  float:middle;
-  width: 1000px;
+  width: 300px;
   position: relative;
   margin-top: 50px;
   margin-left: auto;
@@ -70,12 +68,12 @@ a {
   .copyright {
   display: block;
   border: none;
-  float:middle;
+  text-align: center;
   position: relative;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -140px;  
+  margin-bottom: -150px;  
   }
 
 
@@ -89,4 +87,13 @@ a {
 
   #img3 {
     opacity: 0.5;
+  }
+
+#navbar {
+    margin-left: 980px;
+    display: inline;
+    height: 16px;
+    width:40px;
+
+
   }

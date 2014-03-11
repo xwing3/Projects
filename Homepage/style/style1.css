@@ -1,8 +1,19 @@
-p {
-	text-align: left;
-	font-family: verdana;
-	font-size: 14px;
-	font-weight: bold;
+body {
 	color: #4183c4;
 }
 
+p {
+	text-align: left;
+	font-family: "Droid serif", sans-serif;
+	font-size: 13px;
+	
+}
+
+#welcome {
+	font-family: "Droid serif", sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	
+
+}

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("#frame1").attr("src","http://ts3.travian.ro/dorf1.php?newdid=79715&");
+	$("#frame1").attr("src","body/home.html");
 });	
 
 
@@ -11,7 +11,7 @@ $("#frame_load").click(function(){
 
 $(document).ready(function() {
 $("#back_home").click(function(){
-	$("#frame1").attr("src","http://ts3.travian.ro/dorf1.php?newdid=79715&");
+	$("#frame1").attr("src","body/home.html");
 });	
 });
 
