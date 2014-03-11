@@ -38,7 +38,6 @@ iframe {
 	display: block;
 	border: 1px dashed #4183c4;
   font-family: "Droid serif", sans-serif;
-  float:middle;
   position: relative;
   margin-top: 50px;
   margin-left: auto;
@@ -90,7 +89,7 @@ a {
   }
 
 #navbar {
-    margin-left: 980px;
+    margin-left: 990px;
     display: inline;
     height: 16px;
     width:40px;
