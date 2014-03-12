@@ -1,98 +1,45 @@
+html,body {
+    height: 100%;
+}
+
 body {
-	font-family: "Droid serif", sans-serif;
-  font-size: 13px;
-	padding: 20px 50px 150px;
-	background: #f6f5ed;
-}
-
-#list {
-  display: inline;
-  list-style: none;
- 
-}
-
-.menu {
-  font: bold 13px "Droid serif", sans-serif;
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  padding: 15px 20px;
-  background: #f6f5ed;
-  cursor: default;
-  border: 1px dashed #4183c4;
-  border-radius: 5px;
-  color: #515151;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.menu:hover {
-	background-color: #4183c4;
-	color:white;
-}
-
-iframe {
-	display: block;
-	border: 1px dashed #4183c4;
-  font-family: "Droid serif", sans-serif;
-  position: relative;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+    font-family: 'Droid Serif', serif;
+    background-color: #f6f5ed;
   }
 
-
-  .footer_social {
-  display: block;
-  text-align: center;
-  border: none;
-  width: 300px;
-  position: relative;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0; 
-  border-top: 1px solid #c4d7ed;
-  border-radius: 1px;
-  }
+#frame {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  min-width: 70%;
+  min-height: 80%;
+  padding: 10px;  
+  border: 1px dashed #4183c4;;
   
-a {
-  margin-top: 10px;
-  display: inline-block;
+  
 }
-  .copyright {
-  display: block;
-  border: none;
-  text-align: center;
-  position: relative;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: -150px;  
-  }
 
+div {
+  border: 1px dashed #4183c4;
 
-  #img1 {
-    opacity: 0.5;
-  }
+}
 
-  #img2 {
-    opacity: 0.5;
-  }
-
-  #img3 {
-    opacity: 0.5;
-  }
-
-#navbar {
-    margin-left: 990px;
-    display: inline;
-    height: 16px;
-    width:40px;
-
-
-  }
+#menu {
+  min-width: 20%;
+  height: 70%;
+  text-align: left;
+  vertical-align: text-top;
+  float: left;
+  
+  
+}
+#load {
+  vertical-align: text-top;
+  padding: 10px;
+  
+  min-width: 70%;
+  height: 70%;
+  margin-left: 22%;
+}
