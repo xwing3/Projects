@@ -1,7 +1,7 @@
 /*
 Copyright (c) 2014 Florian Madar
 
-License under the MIT license
+Licensed under the MIT license
 https://github.com/xwing3/Projects/blob/master/LICENSE.md
 */
 
@@ -26,7 +26,7 @@ body {
   min-width: 70%;
   height: 95%;
   padding: 10px;  
-  /*border: 1px dashed #4183c4;*/
+  border: 1px dashed #4183c4;
   }
   
 #menu {
@@ -37,7 +37,7 @@ body {
   margin-bottom: 1%;
   vertical-align: text-top;
   float: left;
-  /*border: 1px dashed #4183c4;*/
+  border: 1px dashed #4183c4;
   
 }
 
@@ -48,7 +48,7 @@ body {
   min-width: 80%;
   margin-left: 14%;
   margin-bottom: 1%;
-  /*border: 1px dashed #4183c4;*/
+  border: 1px dashed #4183c4;
   color: #4183c4;
   font-size: 0.9em;
 }
@@ -59,7 +59,7 @@ body {
   padding: 5px;
   min-height: 10%;
   min-width: 50%;
-  /*border: 1px dashed #4183c4;*/
+  border: 1px dashed #4183c4;
   color: #4183c4;
   font-size: 0.9em;
   
