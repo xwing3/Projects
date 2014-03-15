@@ -1,5 +1,7 @@
 html,body {
     height: 100%;
+
+    
 }
 
 body {
@@ -10,36 +12,80 @@ body {
 #frame {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 45%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   min-width: 70%;
-  min-height: 80%;
+  height: 80%;
   padding: 10px;  
-  border: 1px dashed #4183c4;;
-  
-  
-}
-
-div {
   border: 1px dashed #4183c4;
-
-}
-
+  }
+  
 #menu {
-  min-width: 20%;
-  height: 70%;
+  min-width: 12%;
+  min-height: 98.4%;
+  padding: 5px;
   text-align: left;
   vertical-align: text-top;
   float: left;
-  
+  border: 1px dashed #4183c4;
   
 }
+
 #load {
   vertical-align: text-top;
-  padding: 10px;
+  padding: 5px;
+  min-height: 98.4%;
+  min-width: 80%;
+  margin-left: 14%;
+  border: 1px dashed #4183c4;
+}
+
+#frame_load1 {
+padding: 2px;
+background-color: white;
+cursor: default;
+border-radius: 5px;
+color: #4183c4;
+}
+
+#frame_load {
+padding: 2px;
+background-color: white;
+cursor: default;
+border-radius: 5px;
+color: #4183c4;
+}
+
+#frame_load:hover {
+  background-color: #4183c4;
+  color: white;
+}
+
+#frame_load1:hover {
+  background-color: #4183c4;
+  color: white;
+}
+
+
+
+#footer {
+  position: absolute;
+  text-align: center;
+  font-size: 0.8em;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  min-width: 15%;
+  height: 12%;
+  padding: 5px;  
+  border-top: 1px dashed #4183c4;
   
-  min-width: 70%;
-  height: 70%;
-  margin-left: 22%;
+}
+
+img {
+  margin: 1px;
+  text-align: center;
+  opacity: 0.5;
 }

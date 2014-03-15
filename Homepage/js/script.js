@@ -1,7 +1,11 @@
-$(document).ready(function() {
-	$("#frame1").attr("src","body/home.html");
-});	
+$(document).ready(function(){
+	$("#load").load("body/home.html")
+});
 
+
+$(document).on("click", "#frame_load1", function(){
+	$("#load").load("body/home.html")
+});
 
 $(document).ready(function() {
 $("#frame_load").click(function(){
@@ -9,17 +13,6 @@ $("#frame_load").click(function(){
 });
 });
 
-$(document).ready(function() {
-$("#back_home").click(function(){
-	$("#frame1").attr("src","body/home.html");
-});	
-});
-
-$(document).ready(function() {
-$("#github").click(function(){
-	$("#frame1").attr("src","body/other.html");
-});	
-});
 
 $(document).ready(function(){
 	$("#img1").mouseover(function(){
