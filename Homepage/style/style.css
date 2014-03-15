@@ -1,23 +1,8 @@
 /*
 Copyright (c) 2014 Florian Madar
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+License under the MIT license
+https://github.com/xwing3/Projects/blob/master/LICENSE.md
 */
 
 
@@ -35,20 +20,21 @@ body {
 #frame {
   position: absolute;
   left: 50%;
-  top: 45%;
+  top: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   min-width: 70%;
-  height: 80%;
+  height: 95%;
   padding: 10px;  
   /*border: 1px dashed #4183c4;*/
   }
   
 #menu {
   min-width: 12%;
-  min-height: 98.4%;
+  min-height: 85%;
   padding: 5px;
   text-align: left;
+  margin-bottom: 1%;
   vertical-align: text-top;
   float: left;
   /*border: 1px dashed #4183c4;*/
@@ -58,12 +44,25 @@ body {
 #load {
   vertical-align: text-top;
   padding: 5px;
-  min-height: 98.4%;
+  min-height: 85%;
   min-width: 80%;
   margin-left: 14%;
+  margin-bottom: 1%;
   /*border: 1px dashed #4183c4;*/
   color: #4183c4;
   font-size: 0.9em;
+}
+
+#footer {
+  vertical-align: text-top;
+  text-align: center;
+  padding: 5px;
+  min-height: 10%;
+  min-width: 50%;
+  /*border: 1px dashed #4183c4;*/
+  color: #4183c4;
+  font-size: 0.9em;
+  
 }
 
 #frame_load1 {
@@ -94,20 +93,7 @@ color: #4183c4;
   color: white;
 }
 
-#footer {
-  position: absolute;
-  text-align: center;
-  font-size: 0.8em;
-  left: 50%;
-  top: 95%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  min-width: 15%;
-  height: 12%;
-  padding: 5px;  
-  /*border-top: 1px dashed #4183c4;*/
-  
-}
+
 
 img {
   margin: 1px;
