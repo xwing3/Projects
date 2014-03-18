@@ -26,7 +26,7 @@ $("#frame_load").click(function(){
 	});
 });
 
-// adding .active
+// adding .active to navbar 
 
 $(document).on("click", "#frame_load", function(){
 	$(this).addClass("active");
