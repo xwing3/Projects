@@ -7,33 +7,50 @@ https://github.com/xwing3/Projects/blob/master/LICENSE.md
 */
 
 
-
-
 // page loading funtions
 
 $(document).ready(function(){
-	$(".jumbotron").load("body/home.html")
+	$("#first").load("body/home.html")
 });
 
 
-$(document).on("click", "#frame_load1", function(){
-	$(".jumbotron").load("body/home.html")
+$(document).on("click", "#home", function(){
+	$("#first").load("body/home.html")
 });
 
 $(document).ready(function() {
-$("#frame_load").click(function(){
-	$(".jumbotron").load("body/stuff.html");
+$("#stuff").click(function(){
+	$("#first").load("body/stuff.html");
+
 	});
 });
 
 // adding .active to navbar 
 
-$(document).on("click", "#frame_load", function(){
+$(document).on("click", "#stuff", function(){
 	$(this).addClass("active");
-	$("#frame_load1").removeClass("active");
+	$("#home").removeClass("active");
 });
 
-$(document).on("click", "#frame_load1", function(){
+$(document).on("click", "#home", function(){
 	$(this).addClass("active");
-	$("#frame_load").removeClass("active");
+	$("#stuff").removeClass("active");
 });
+
+
+///add new jumbotron
+
+$(document).on("click", "#stuff", function(){
+	$("#second").show();
+	$("#second").addClass("jumbotron");
+	$("#second").load("body/stuff.html");
+});
+
+
+$(document).on("click", "#home", function(){
+	$("#second").removeClass("jumbotron");
+	$("#second").hide();
+	
+});
+
+
