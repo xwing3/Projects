@@ -35,13 +35,24 @@ body {
 
 /* hyperlink styling*/
 
-a:focus {
-  color: #2a6496;
-  text-decoration: none;
-}
-a:focus {
+a {
   outline: none;
- }
+}
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+a:active {
+  text-decoration: none;
+  outline: none;
+}
 
 /* Customize container */
 @media (min-width: 768px) {
