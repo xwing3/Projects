@@ -20,7 +20,7 @@ $(document).on("click", "#home", function(){
 
 $(document).ready(function() {
 $("#stuff").click(function(){
-	$("#first").load("body/stuff.html");
+	$("#first").load("body/stuff.html .jumbo1");
 
 	});
 });
@@ -38,18 +38,18 @@ $(document).on("click", "#home", function(){
 });
 
 
-///add new jumbotron
+///adds new jumbotron
 
 $(document).on("click", "#stuff", function(){
-	$("#second").show();
+	$("#second").show(0);
 	$("#second").addClass("jumbotron");
-	$("#second").load("body/stuff.html");
+	$("#second").load("body/stuff.html .jumbo2")
 });
 
 
 $(document).on("click", "#home", function(){
 	$("#second").removeClass("jumbotron");
-	$("#second").hide();
+	$("#second").hide(0,"body/stuff.html .jumbo2");
 	
 });
 
