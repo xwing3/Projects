@@ -16,12 +16,13 @@ $(document).ready(function(){
 
 $(document).on("click", "#home", function(){
 	$("#first").load("body/home.html")
+	$("#first").css("background-color", "#eee");
 });
 
 $(document).ready(function() {
 $("#stuff").click(function(){
-	$("#first").load("body/stuff.html .jumbo1");
-
+	$("#first").load("body/stuff.html");
+	$("#first").css("background-color", "white");
 	});
 });
 
@@ -35,22 +36,8 @@ $(document).on("click", "#stuff", function(){
 $(document).on("click", "#home", function(){
 	$(this).addClass("active");
 	$("#stuff").removeClass("active");
-});
+}); 
 
 
-///adds new jumbotron
-
-$(document).on("click", "#stuff", function(){
-	$("#second").show(0);
-	$("#second").addClass("jumbotron");
-	$("#second").load("body/stuff.html .jumbo2")
-});
-
-
-$(document).on("click", "#home", function(){
-	$("#second").removeClass("jumbotron");
-	$("#second").hide(0,"body/stuff.html .jumbo2");
-	
-});
 
 
