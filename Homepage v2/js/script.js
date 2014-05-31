@@ -1,4 +1,3 @@
-
 /*
 Copyright (c) 2014 Florian Madar
 
@@ -15,14 +14,14 @@ $(document).ready(function(){
 
 
 $(document).on("click", "#home", function(){
-	$("#first").load("body/home.html")
-	$("#first").css("background-color", "#eee");
+	$("#first").load("body/home.html").css("background-color", "#eee");
+
 });
 
 $(document).ready(function() {
 $("#stuff").click(function(){
-	$("#first").load("body/stuff.html");
-	$("#first").css("background-color", "white");
+	$("#first").load("body/stuff.html").css("background-color", "white");
+
 	});
 });
 
