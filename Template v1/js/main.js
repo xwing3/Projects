@@ -17,6 +17,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#home").click(function(){
         $(".jumbotron").load("body/home.html");
+
     });
 });
 
@@ -31,5 +32,14 @@ $(document).ready(function(){
         $(".jumbotron").load("body/contact.html");
     });
 });
+
+$(document).ready(function(){
+    $("#portofolio").click(function(){
+        $(".jumbotron").load("body/portofolio.html");
+      });
+});
+
+
+
 
 

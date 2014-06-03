@@ -47,7 +47,7 @@ li a {
     text-align: justify;
     text-justify: inter-word;
     font-family: "Droid Serif", serif;
-    font-size: 15px;
+    font-size: 14px;
     background-color: #f5f5f5;
 
 }
@@ -64,7 +64,7 @@ h3 {
 /* home.html .home style*/
 .home {
     text-align: center;
-    font-size: 15px ;
+    font-size: 14px ;
 }
 
 .homediv {
@@ -132,4 +132,10 @@ label {
 #contact_submit {
     text-align: center;
 
+}
+
+/*portofolio.html style */
+
+.accordion {
+    font-size: 14px;
 }
