@@ -40,6 +40,10 @@ $(document).ready(function(){
 });
 
 
-
+$(document).ready(function () {
+    $("#team").click(function (){
+        $(".jumbotron").load("body/team.html");
+    });
+});
 
 
