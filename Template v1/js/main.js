@@ -30,8 +30,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#contact").click(function(){
         $(".jumbotron").load("body/contact.html");
+
     });
-});
+ });
 
 $(document).ready(function(){
     $("#portofolio").click(function(){
