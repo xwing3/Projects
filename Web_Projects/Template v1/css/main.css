@@ -1,0 +1,141 @@
+.container {
+    max-width: 1000px;
+    padding: 5px;
+}
+.header {
+       margin-top: 10px;
+ }
+
+a {
+    outline: none;
+}
+
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+/* navbar style */
+
+.selected {
+    background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+
+.nav li a:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.nav li a:focus {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #f5f5f5;
+ }
+
+li a {
+    font-family: "Droid Serif", serif;
+    font-size: 14px;
+
+}
+
+/* jumbotron style */
+
+.jumbotron {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: "Droid Serif", serif;
+    font-size: 14px;
+    background-color: #f5f5f5;
+
+}
+
+
+.jumbotron p {
+    font-size: 15px;
+
+}
+
+h3 {
+    text-align: center;
+ }
+/* home.html .home style*/
+.home {
+    text-align: center;
+    font-size: 14px ;
+}
+
+.homediv {
+    min-width: 100%;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+
+}
+
+/* services.html style */
+
+.center {
+    text-align: center;
+
+}
+
+#tel {
+    color: #808080;
+}
+
+.phone:hover {
+    color: goldenrod;
+}
+
+h5 {
+    text-align: justify;
+    color: #808080;
+}
+
+.col-md-3 span {
+    color:rosybrown;
+    opacity: 0.6;
+ }
+
+.col-md-3 span:hover {
+    opacity: 1;
+    font-size: 55px;
+}
+
+.col-md-3 {
+ margin-top: 3%;
+
+}
+
+.col-md-3 p {
+     font-size: 50px;
+     vertical-align: middle;
+
+
+ }
+
+.col-md-9 p {
+    color: #808080;
+    text-align: justify;
+
+}
+
+/* contact.html style */
+
+label {
+    font-size: 15px;
+
+}
+
+#contact_submit {
+    text-align: center;
+
+}
+
+/*portofolio.html style */
+
+.accordion {
+    font-size: 14px;
+}
